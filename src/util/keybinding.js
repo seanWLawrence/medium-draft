@@ -34,9 +34,9 @@ export default (e) => {
       case 56: return changeType('unordered-list-item');
       // <
       case 188: return changeType('caption');
-      // // -
-      // case 189: return 'changetype:caption';
-      // >
+        
+      case 192: return changeType('code');
+        
       case 190: return changeType('unstyled');
       // "
       case 222: return changeType('blockquote');
